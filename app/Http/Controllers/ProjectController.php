@@ -13,7 +13,6 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return dd('está llegando aquí');
         $projects = Project::all();
         return response()->json($projects);
     }
