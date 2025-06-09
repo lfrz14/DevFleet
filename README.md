@@ -44,10 +44,9 @@ Asegúrate de tener instalados los siguientes programas:
    php artisan serve
    
 ## 🧱 Migraciones y Seeds
-
 Ejecuta los siguientes comandos para preparar la base de datos:
-
-php artisan migrate
-php artisan db:seed
-php artisan db:seed --class=ProjectSeeder
-php artisan db:seed --class=TaskSeeder
+```bash
+    php artisan migrate
+    php artisan db:seed
+    php artisan db:seed --class=ProjectSeeder
+    php artisan db:seed --class=TaskSeeder
